@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #2c3e50;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    padding: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+#addPost {
+    display: inline-block;
+    padding: 12px 22px;
+    margin-top: 12px;
+    background-color: #2ecc71;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 500px;
+}
+
+#addPost:hover {
+    background-color: #27ae60;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+#tape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#postEditMenu input[type="file"] {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+#postEditMenu button {
+    width: 100%;
+    background-color: #2ecc71;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    cursor: pointer;
+}
+
+#postEditMenu button:hover {
+    background-color: #27ae60;
+}
+
+#postContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#postEditMenu {
+    position: fixed;
+    display: none;
+    top: 20%;
+    left: 29%;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #0c1434;
+    color: white;
+    z-index: 1000;
+}
+
+#postEditMenu h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#postTitle {
+    width: 95%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+#uploadPhoto {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#postButton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #2ecc71;
+    color: #fff;
+    cursor: pointer;
+}
+
+#postButton:hover {
+    background-color: #27ae60;
+}
+
+.time {
+    color: #999;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.postImg {
+    margin: 1.5rem auto;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.postDiv {
+    margin-top: 30px;
+    background-color: #2c3e50;
+    border-radius: 8px;
+    color: white;
+    padding: 1.8rem;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}

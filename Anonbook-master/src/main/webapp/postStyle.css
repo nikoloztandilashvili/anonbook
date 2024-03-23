@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f3f4f6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4a5568;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #2d3748;
+}
+
+header h1 {
+    color: #edf2f7;
+    text-align: center;
+    margin: 0;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.postImg {
+    margin: 1.5rem auto;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.postDiv {
+    margin-top: 30px;
+    background-color: #1a202c;
+    border-radius: 8px;
+    color: #cbd5e0;
+    padding: 1.8rem;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.time {
+    color: #a0aec0;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
+#yourComment {
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+#yourComment:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 8px rgba(74, 144, 226, 0.5);
+}
